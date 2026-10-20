@@ -28,7 +28,7 @@ const EMPTY_VALUES: FormValues = {
 };
 
 const inputClass =
-  "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 shadow-sm focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-200";
+  "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 shadow-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200";
 const errorClass = "mt-1 text-sm text-red-600";
 
 export default function ApplicationForm() {
@@ -231,7 +231,7 @@ export default function ApplicationForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="rounded-lg bg-violet-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors hover:bg-violet-700 disabled:cursor-not-allowed disabled:opacity-60"
+        className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-3 text-base font-semibold text-slate-900 shadow-sm transition hover:from-amber-600 hover:to-orange-600 disabled:cursor-not-allowed disabled:opacity-60"
       >
         {status === "loading" ? "Отправляем…" : "Отправить заявку"}
       </button>

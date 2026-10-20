@@ -31,9 +31,19 @@ function RootLayout({ children }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
-                                className: "text-lg font-extrabold tracking-tight text-slate-900",
-                                children: "Vibe Venture"
-                            }, void 0, false, {
+                                className: "flex items-center gap-2 text-lg font-extrabold tracking-tight text-slate-900",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "h-2.5 w-2.5 rounded-[2px] bg-gradient-to-br from-amber-400 to-orange-500",
+                                        "aria-hidden": "true"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/layout.tsx",
+                                        lineNumber: 19,
+                                        columnNumber: 15
+                                    }, this),
+                                    "Vibe Venture"
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/app/layout.tsx",
                                 lineNumber: 18,
                                 columnNumber: 13
@@ -44,7 +54,7 @@ function RootLayout({ children }) {
                                 children: "О компании"
                             }, void 0, false, {
                                 fileName: "[project]/app/layout.tsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, this)
                         ]

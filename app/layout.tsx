@@ -15,7 +15,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="min-h-screen bg-white text-slate-900 antialiased">
         <header className="border-b border-slate-200">
           <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-            <Link href="/" className="text-lg font-extrabold tracking-tight text-slate-900">
+            <Link href="/" className="flex items-center gap-2 text-lg font-extrabold tracking-tight text-slate-900">
+              <span className="h-2.5 w-2.5 rounded-[2px] bg-gradient-to-br from-amber-400 to-orange-500" aria-hidden="true" />
               Vibe Venture
             </Link>
             <Link

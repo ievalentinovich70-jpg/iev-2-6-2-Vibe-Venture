@@ -26,7 +26,7 @@ const EMPTY_VALUES = {
     stage: "",
     pitch: ""
 };
-const inputClass = "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 shadow-sm focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-200";
+const inputClass = "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 shadow-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200";
 const errorClass = "mt-1 text-sm text-red-600";
 function ApplicationForm() {
     const [values, setValues] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(EMPTY_VALUES);
@@ -411,7 +411,7 @@ function ApplicationForm() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 type: "submit",
                 disabled: status === "loading",
-                className: "rounded-lg bg-violet-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors hover:bg-violet-700 disabled:cursor-not-allowed disabled:opacity-60",
+                className: "rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-3 text-base font-semibold text-slate-900 shadow-sm transition hover:from-amber-600 hover:to-orange-600 disabled:cursor-not-allowed disabled:opacity-60",
                 children: status === "loading" ? "Отправляем…" : "Отправить заявку"
             }, void 0, false, {
                 fileName: "[project]/components/ApplicationForm.tsx",
